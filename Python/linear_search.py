@@ -5,9 +5,18 @@
 
 # Below is an example of how to code it in python
 
-# 
-def linear_search(value, list):
+def linear_search(list, value):
     for item in list:
         if item == value:
-            return list.index(item)
+            return f"The index of the number is {list.index(item)})
         pass
+    
+# The way you would use this is as such:
+# Take a list: list = [1,2,3,4,5]
+# Then plug in the list variable name into the function along with the value you want to find
+# print(linear_search(list, 4)) -> prints "The index of the number is 3" to the console
+
+# This is has a BigO notation of O(n) for both space and time
+# The best case is O(1) which would be if it is the very first index
+# A problem with this algorithm is that even if the value you are searching for is at the end (or not even in the list)
+# The algorithm will still have to go all the way through the entire list just to get there or to figure out that its not there
