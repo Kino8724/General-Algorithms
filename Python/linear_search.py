@@ -8,8 +8,7 @@
 def linear_search(list, value):
     for item in list:
         if item == value:
-            return f"The index of the number is {list.index(item)})
-        pass
+            return f"The index of the value is {list.index(item)})"
     
 # The way you would use this is as such:
 # Take a list: list = [1,2,3,4,5]
@@ -18,5 +17,7 @@ def linear_search(list, value):
 
 # This is has a BigO notation of O(n) for both space and time
 # The best case is O(1) which would be if it is the very first index
-# A problem with this algorithm is that even if the value you are searching for is at the end (or not even in the list)
-# The algorithm will still have to go all the way through the entire list just to get there or to figure out that its not there
+# A problem with this algorithm 
+# Is that even if the value you are searching for is at the end (or not even in the list)
+# The algorithm will still have to go all the way through the entire list 
+# Just to get there or to figure out that its not there
