@@ -8,7 +8,7 @@
 def linear_search(list, value):
     for item in list:
         if item == value:
-            return f"The index of the value is {list.index(item)})"
+            return f"The index of the value is {list.index(item)}"
     
 # The way you would use this is as such:
 # Take a list: list = [1,2,3,4,5]
