@@ -9,7 +9,7 @@ The Linear Search is the most basic way to search through a list. All the functi
 ## Binary Search
 The Binary Search is a much faster way of searching through a list and is also more like how a human would search for something. It searches by going to a halfway point, checking for the value and whether is is less than or greater than the position it is at, and then halves the list, to then only check the half the value could be in. The same way as you might flip through a dictionary to find a word. The one downside is that it <b>MUST</b> be a sorted list. It has a O(log n) time and space complexity.
 
-#Sort Algorithms
+# Sort Algorithms
 
 ## Bubble Sort
 
