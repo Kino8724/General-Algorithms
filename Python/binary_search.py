@@ -1,4 +1,4 @@
-# The Binary Search is a much faster way of searching through a array.
+# The Binary Search is a much faster way of searching through an array.
 # It searches by going to a halfway point checking for value, then halving the array.
 # It then will go to the left or right, depending of if it was less than or greater than the value.
 # The same way as you might flip through a dictionary to find a word.
@@ -10,7 +10,7 @@ def binary_search(array, value):
     last = len(array) - 1
     # A loop to keep running until it checks all possible positions; breaks when found
     while first <= last:
-        # add the first and last then floor divide so that it will go to the left if there is a float
+        # add the first and last then floor divide so that it does not have a float
         mid = (first + last) // 2
         # Always looking at the middle value of the current range
         if array[mid] == value:
